@@ -12,6 +12,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,5 +20,5 @@ body {
 }
 
 .main-screen {
-  padding: 5px var(--horizontal-space);
+  padding: 25px var(--horizontal-space);
 }
