@@ -19,7 +19,7 @@
   margin-left: 25px;
 }
 
-.screen-header__icons {
+.screen-header__cog {
   position: relative;
 }
 
@@ -29,6 +29,6 @@
   height: 5px;
   border-radius: 5px;
   position: absolute;
-  bottom: 18px;
-  left: 70px;
+  right: 18px;
+  top: 25px;
 }
