@@ -40,18 +40,36 @@
       <div class="chat__timestamp">
         Thuesday, June 30, 2020
       </div>
-
       <div class="message-row">
         <img src="../images/lion.jpg" />
         <div class="message-row__content">
           <span class="message__author">Lion</span>
           <div class="message__info">
             <span class="message__bubble">Hi!</span>
-            <div class="message__time">21:27</div>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">21:28</span>
           </div>
         </div>
       </div>
     </main>
+    <form class="reply">
+      <div class="reply__column"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="far fa-caret-square-up"></i>
+        </button>
+      </div>
+    </form>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
